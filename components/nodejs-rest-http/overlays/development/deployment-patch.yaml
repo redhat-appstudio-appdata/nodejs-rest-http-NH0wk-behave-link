@@ -1,0 +1,18 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  creationTimestamp: null
+  name: nodejs-rest-http
+spec:
+  replicas: 1
+  selector: {}
+  strategy: {}
+  template:
+    metadata:
+      creationTimestamp: null
+    spec:
+      containers:
+      - image: quay.io/redhat-user-workloads/midawson-tenant/nodejs-rest-http/nodejs-rest-http@sha256:e83ac91f6b4acff8a71cc26e4520c934612bb9ee424e4d466e52b4e6e3f7f68d
+        name: my-nodejs
+        resources: {}
+status: {}
