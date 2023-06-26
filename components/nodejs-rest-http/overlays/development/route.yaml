@@ -8,11 +8,11 @@ metadata:
     app.kubernetes.io/managed-by: kustomize
     app.kubernetes.io/name: nodejs-rest-http
     app.kubernetes.io/part-of: nodejs-rest-http
-  name: nodejs-rest-httpozh5
+  name: nodejs-rest-httptfwa
 spec:
   path: /
   port:
-    targetPort: 8080
+    targetPort: 3001
   to:
     kind: Service
     name: nodejs-rest-http
