@@ -8,7 +8,7 @@ metadata:
     app.kubernetes.io/managed-by: kustomize
     app.kubernetes.io/name: nodejs-rest-http
     app.kubernetes.io/part-of: nodejs-rest-http
-  name: nodejs-rest-httpzeaw
+  name: nodejs-rest-httpslpn
 spec:
   path: /
   port:
