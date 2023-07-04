@@ -12,7 +12,7 @@ spec:
       creationTimestamp: null
     spec:
       containers:
-      - image: quay.io/redhat-user-workloads/midawson-tenant/nodejs-rest-http/nodejs-rest-http@sha256:0907ad3109729d8680abfd895625b1169d64491c3023a7c26e193ab3145b7251
+      - image: quay.io/redhat-user-workloads/midawson-tenant/nodejs-rest-http/nodejs-rest-http@sha256:e83ac91f6b4acff8a71cc26e4520c934612bb9ee424e4d466e52b4e6e3f7f68d
         name: my-nodejs
         resources: {}
 status: {}
