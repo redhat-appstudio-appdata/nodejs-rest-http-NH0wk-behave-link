@@ -25,7 +25,7 @@ spec:
         app.kubernetes.io/instance: nodejs-rest-http
     spec:
       containers:
-      - image: quay.io/redhat-user-workloads/midawson-tenant/nodejs-rest-http/nodejs-rest-http@sha256:e83ac91f6b4acff8a71cc26e4520c934612bb9ee424e4d466e52b4e6e3f7f68d
+      - image: quay.io/redhat-user-workloads/midawson-tenant/nodejs-rest-http/nodejs-rest-http@sha256:dd009132091c714c8d0034a91c67300fccc2ef242a7f156bfc19e924ab6d8d0d
         name: my-nodejs
         ports:
         - containerPort: 3001
